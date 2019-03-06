@@ -8,7 +8,7 @@ Authors@R:
            email = "anemail@example.com")
 Author: 
 Maintainer: Adam <adam@someemail.com>
-Depends: R (>= 3.0.0), dplyr, purrr
+Depends: R (>= 3.0.0)
 Description: This package is contains a few functions related to the NBA statistics file. You can get a correlation matrix, find the oldest player by year, or just return random stats.
 License: Creative Commons
 Encoding: UTF-8
