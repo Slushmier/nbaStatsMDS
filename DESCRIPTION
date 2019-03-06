@@ -1,0 +1,16 @@
+Package: nbaStatsMDS
+Title: Get Some NBA Stats
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Schless-Meier",
+           family = "Adam",
+           role = "aut",
+           email = "anemail@example.com")
+Author: 
+Maintainer: Adam <adam@someemail.com>
+Depends: R (>= 3.0.0), dplyr, purrr
+Description: This package is contains a few functions related to the NBA statistics file. You can get a correlation matrix, find the oldest player by year, or just return random stats.
+License: Creative Commons
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
