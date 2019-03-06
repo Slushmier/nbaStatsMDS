@@ -15,9 +15,9 @@ oldest_year <- function(year = 1983) {
     year <- sample(c(1950:2017), 1)
     print("Non-valid year. Random year generated.")}
 
-  output <- dplyr::filter(nba, Year == year) %>%
-    dplyr::filter(Age == max(Age)) %>%
-    dplyr::select(Year, Player, Age)
+  output <- dplyr::filter(nba, Year == year)
+  output <- dplyr::filter(output, Age == max(Age))
+  output <- dplyr::select(output, Year, Player, Age)
 
   output[sample(nrow(output), 1),]
 }
